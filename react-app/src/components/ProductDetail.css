@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.product-detail-container {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7; /* Light background for contrast */
+}
+
+.product-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333; /* Darker text */
+}
+
+.product-detail-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.product-images {
+    flex: 1;
+    max-width: 400px; /* Limit max width */
+    margin-right: 20px; /* Spacing between images and info */
+}
+
+.main-image, .secondary-image {
+    width: 100%;
+    height: auto; /* Responsive images */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between images */
+}
+
+.product-info {
+    flex: 1;
+    min-width: 300px; /* Ensuring minimum width */
+}
+
+.price-text {
+    color: #e74c3c; /* Price color */
+    font-size: 1.5rem;
+}
+
+.product-name {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.product-description {
+    color: #555; /* Description color */
+}
+
+.contact-btn {
+    margin-top: 10px;
+    background-color: #3498db; /* Button color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #2980b9; /* Darker button color on hover */
+}
+
+.user-info {
+    margin-top: 10px;
+    color: #333; /* User info text color */
+}

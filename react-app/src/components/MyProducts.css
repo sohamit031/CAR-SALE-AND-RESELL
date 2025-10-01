@@ -1,0 +1,29 @@
+.product-card {
+  width: 300px; /* Set a fixed width for cards */
+  border: 1px solid #ccc; /* Add a border for separation */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  overflow: hidden; /* Ensure images and content stay within bounds */
+  background-color: #fff; /* White background for the card */
+  text-align: center; /* Center text */
+}
+
+.product-image {
+  width: 100%; /* Full width for responsiveness */
+  height: 200px; /* Set a consistent height */
+  object-fit: cover; /* Cover to maintain aspect ratio */
+  border-bottom: 1px solid #ccc; /* Divider between image and text */
+}
+
+.delete-btn {
+  margin-top: 10px; /* Space above the button */
+  width: 100%; /* Full width for the button */
+  padding: 10px; /* More padding for better touch target */
+  font-size: 16px; /* Increase font size for readability */
+  border-radius: 5px; /* Rounded button corners */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.delete-btn:hover {
+  background-color: #e74c3c; /* Darker red on hover */
+}

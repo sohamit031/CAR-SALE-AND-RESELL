@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.add-product-container {
+    background-color: #f7f7f7; /* Light background */
+    padding: 20px;
+    min-height: 100vh; /* Full height */
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 600px; /* Max width for form */
+    margin: 20px auto; /* Center the form */
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem; /* Larger title */
+    color: #333; /* Darker text */
+}
+
+.form-control {
+    margin-bottom: 15px; /* Space between inputs */
+    padding: 10px; /* Inner padding for inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    width: 100%; /* Full width */
+    font-size: 1rem; /* Standard font size */
+}
+
+.btn {
+    width: 100%; /* Full-width button */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.25rem; /* Slightly larger font for button */
+}

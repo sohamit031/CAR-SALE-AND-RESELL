@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.categories-container {
+    padding: 5px; /* Further reduced padding */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 6px; /* Smaller border radius */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0; /* Reduced margin */
+}
+
+.categories-title {
+    text-align: center;
+    font-size: 1.25rem; /* Smaller font size */
+    font-weight: 600; /* Slightly lighter weight */
+    margin-bottom: 5px; /* Reduced margin */
+}
+
+.categories-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    cursor: pointer;
+    background-color: #ff4757; /* Bright category background */
+    color: white;
+    padding: 5px 10px; /* Reduced padding */
+    margin: 3px; /* Smaller margin */
+    border-radius: 15px; /* Smaller rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    font-size: 0.85rem; /* Smaller font size for items */
+}
+
+.category-item:hover {
+    background-color: #e84118; /* Darker color on hover */
+    transform: scale(1.03); /* Slight scaling effect */
+}

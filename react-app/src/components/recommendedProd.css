@@ -1,0 +1,30 @@
+.product-detail {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .product-card h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .product-card p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .error-message, .loading-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ff4757;
+  }
+  

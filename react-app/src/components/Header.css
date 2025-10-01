@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #002f34; /* Consistent background color */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative; /* Needed for absolute positioning of menu */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.location-select {
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #000;
+}
+
+.search {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-btn {
+    background-color: #ff4757;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #e84118; /* Slightly darker on hover */
+}
+
+.profile-container {
+    position: relative;
+}
+
+.profile-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff4757;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-icon:hover {
+    background: #e84118; /* Darker on hover */
+}
+
+.profile-menu {
+    min-height: 100px;
+    width: 200px;
+    background: #002f34;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: 1;
+    border-radius: 7px;
+    padding: 10px;
+    color: white;
+}
+
+.menu-btn {
+    background: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.menu-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle hover effect */
+}
